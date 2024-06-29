@@ -8,7 +8,7 @@ from sqlalchemy import text
 query = '''
         select pickup_date, vendor_id, passenger_count, trip_distance, payment_type, fare_amount, tip_amount 
         from tripdata
-        where year(pickup_date) = 2015 and month(pickup_date) = 1 and dayOfMonth(pickup_date) = 2
+        where year(pickup_date) = 2015 and month(pickup_date) = 1 and dayOfMonth(pickup_date) = 3
         '''
 
 client = get_client()
