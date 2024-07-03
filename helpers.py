@@ -46,11 +46,3 @@ def get_postgres_engine():
     
     return engine
 
-
-def demo():
-    num = 1 + 1
-    print(num)
-
-
-if __name__ == '__main__':
-    demo()
