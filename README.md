@@ -25,21 +25,14 @@ The data source for this pipeline is a ClickHouse database accessible at the fol
 To reproduce the pipeline, an environment variable file (`.env`) is required with credentials for both the ClickHouse and PostgreSQL databases. The `.env` file should have the following format:
 
 ClickHouse Credentials
-ch_host = <your_clickhouse_host>
-
-ch_port = <your_clickhouse_port>
-
-ch_user = <your_clickhouse_user>
-
-ch_password = <your_clickhouse_password>
+- `ch_host = <your_clickhouse_host>`
+- `ch_port = <your_clickhouse_port>`
+- `ch_user = <your_clickhouse_user>`
+- `ch_password = <your_clickhouse_password>`
 
 PostgreSQL Credentials
-pg_user = <your_postgres_user>
-
-pg_password = <your_postgres_password>
-
-pg_dbname = <your_postgres_dbname>
-
-pg_port = <your_postgres_port>
-
-pg_host = <your_postgres_host>
+- `pg_user = <your_postgres_user>`
+- `pg_password = <your_postgres_password>`
+- `pg_dbname = <your_postgres_dbname>`
+- `pg_port = <your_postgres_port>`
+- `pg_host = <your_postgres_host>`
