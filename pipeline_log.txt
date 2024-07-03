@@ -1,0 +1,14 @@
+Running pipeline at 03/07/2024  1:58:00.76 
+7032 rows successfully extracted
+7032 rows loaded to staging successfully
+Stored procedure executed
+pipeline executed successfully for 2015-01-05
+Pipeline completed at 03/07/2024  1:58:06.02 
+ 
+Running pipeline at 03/07/2024  1:59:58.72 
+34056 rows successfully extracted
+34056 rows loaded to staging successfully
+Stored procedure executed
+pipeline executed successfully for 2015-01-06
+Pipeline completed at 03/07/2024  2:00:06.75 
+ 
